@@ -1,0 +1,6 @@
+number = 67
+if number >= 0:
+    print(number, "a positive number")
+else: 
+    print(number, "a negative number")
+    
