@@ -1,0 +1,7 @@
+english = int(input(71))
+maths = int(input(85))
+geography = int(input(89))
+irish = int(input(51))
+french = int(input(65))
+tot = english+maths+geography+irish+french
+avg = tot/5
