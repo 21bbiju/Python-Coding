@@ -1,0 +1,8 @@
+a = 2
+c = 4
+print(a is c)
+print (a is not c)
+
+a = "dog"
+print("o" in a)
+print ("r" not in a)
