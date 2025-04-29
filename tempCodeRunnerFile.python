@@ -1,0 +1,4 @@
+
+    if grades > 75:
+    print("alowed")
+else:

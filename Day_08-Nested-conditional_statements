@@ -1,0 +1,9 @@
+medical_degree=input("do you have medical defree Y or N:")
+grades = int(input("enter grades of student"))
+if medical_degree =="Y":
+    print("allowed")
+else:
+ if grades>=75:
+    print("alowed")
+ else:
+    print("denied")
