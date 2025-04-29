@@ -1,1 +1,2 @@
-you have selected Road Bike
+
+elif avg and avg > b:
