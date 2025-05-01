@@ -1,2 +1,1 @@
-
-elif avg and avg > b:
+(please enter a random string
