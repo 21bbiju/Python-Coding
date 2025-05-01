@@ -1,0 +1,4 @@
+number = int(input("enter any nummber:" ))
+print("number from {0} to {1} are: " .format(number,1))
+for i in range(number,0,-1):
+    print(i)
