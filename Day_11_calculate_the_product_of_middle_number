@@ -1,0 +1,21 @@
+num = int(input("Enter any number: " ))
+b = num
+numberlen = 0
+while b>0:
+    numberlen = numberlen + 1
+    b = int(b/10)
+if numberlen>=4:
+    numberlen = int(numberlen/2)
+    a = 0
+    while num>0:
+        rem = num%10
+        if a==numberlen:
+            midone = rem
+        elif a == (numberlen-1):
+            midtwo = rem
+        num = int(num/10)
+        a = a+1
+    prod = midone*midtwo
+    print("\nProduct of Mid digits (" +str(midone)+ "*" +str(midtwo)+ ") = ", prod)
+else:
+    print("\nIt cannot be less than a 4 digit number or more than 1")
