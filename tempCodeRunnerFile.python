@@ -1,9 +1,2 @@
-medical_degree=input("do you have medical defree Y or N:")
-grades = int(input("enter grades of student"))
-if medical_degree =="Y":
-    print("allowed")
-else:
- if grades>=75:
-    print("alowed")
- else:
-    print("denied")
+====Diamond Number Pattern====") 
+for i in range(1, rows + 1):

@@ -2,5 +2,5 @@ print("right angled traingle starts:")
 n = int(input("enter number of rows please: "))
 for i in range(n):
     for j in range (i+1):
-        print("* ", end="")
+        print("* ", end = '')
     print()
