@@ -1,0 +1,9 @@
+def burger():
+    print("Step 1. Get a bruger bun" )
+    print("Step 2. Add ketchup")
+    print("Step 3. After cooking a beef patty place is on the ketcup which is on the bun")
+    print("step 4. Add cheese")
+    print("Step 5. Add some lettuce")
+    print("Step 6. Than close it with another bun")
+    print("eat and enjoy")
+burger()
