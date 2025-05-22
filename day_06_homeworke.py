@@ -1,6 +1,6 @@
 x = 5
 y = 6
-z = 8
+z = 2
 x, y, z =y, z, x
 
 print("x equals:", x)
