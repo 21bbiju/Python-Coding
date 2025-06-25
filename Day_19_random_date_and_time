@@ -1,0 +1,36 @@
+import random
+
+import time
+
+def getRandomDate(startDate, endDate):
+
+    print("Printing random date between", startDate, "and", endDate)
+    dateFormat = '%m/%d/%Y'
+
+# Convert to time in seconds since epoch
+
+    startTime = time.mktime(time.strptime(startDate, dateFormat))
+
+    endTime = time.mktime(time.strptime(endDate, dateFormat))
+
+# Generate random time in range
+
+    randomTime = random.uniform(startTime, endTime)
+
+# Convert to readable formats
+
+    randomDateOnly = time.strftime('%m/%d/%Y', time.localtime(randomTime))
+
+    randomDateTime = time.strftime('%m/%d/%Y %H:%M:%S', time.localtime(randomTime))
+
+# Print both
+
+    print("Random time (timestamp) =", randomTime)
+
+    print("Random date and time =", randomDateTime)
+
+    return randomDateOnly
+
+# Call the function and print the random date
+
+print("Random date =", getRandomDate("1/1/2016", "12/12/2018"))
