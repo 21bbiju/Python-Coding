@@ -1,0 +1,4 @@
+my_list = [10, 20, 'Jesse', 12.50, 'Emma']
+print(my_list[1])
+
+print(my_list[4])
