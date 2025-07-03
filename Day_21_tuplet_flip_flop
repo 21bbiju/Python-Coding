@@ -1,0 +1,18 @@
+#this function check if its palindrome is e.g mom
+
+def palind(r):
+    e = len(r) -1
+    s = 0
+    while(s<e):
+            if(r[s]!=r[e]):
+                    return False
+            s+=1
+            e-=1
+    return True
+r =(1,2,3,4,4,3,2,1)
+
+if(palind(r)):
+       print("The Tuple is Flip_flop")
+else:
+       print("this tuple is not a flip_flop")
+                  
